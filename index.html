@@ -1,7 +1,15 @@
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+        @viewport {
+            width: device-width;
+            zoom: 1.0;
+        }
+        @-ms-viewport {
+            width: device-width;
+        }
         .about {
             color: #13F7D2;
             position: absolute;
@@ -101,6 +109,7 @@
         .hell {
             position:absolute;
             bottom: 10%;
+            flex-direction:row;
         }
         html, body {
             max-width: 100%;
@@ -111,6 +120,10 @@
             position:absolute;
             left:40%;
         }
+        @media (max-width: 800px) {
+            .hell {
+                flex-direction: column;
+            }
     </style>
 
 </head>
