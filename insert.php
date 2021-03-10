@@ -2,7 +2,7 @@
 $fname=$_POST['fname'];
 $lname=$_POST['lname'];
 $email=$_POST['email'];
-$host = "localhost";
+$host = "https://darkknight131714.github.io/";
 $dbUsername="root";
 $dbPassword="";
 $dbname="hello";
